@@ -13,7 +13,7 @@ class CheckOutPage:
     cardTitle = (By.CSS_SELECTOR, ".card-title a")
     cardFooter = (By.CSS_SELECTOR, ".card-footer button")
     checkOut = (By.XPATH, "//button[@class='btn btn-success']")
-
+    #This is the checkout object
     def getCardTitles(self):
         return self.driver.find_elements(*CheckOutPage.cardTitle)
 
