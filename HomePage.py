@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from pageObjects.CheckoutPage import CheckOutPage
 
 
+This is a second commit to develop branch
+
 class HomePage:
 
     def __init__(self, driver):
